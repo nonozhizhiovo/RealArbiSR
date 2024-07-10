@@ -1,7 +1,7 @@
 # Learning Dual-Level Implicit Representation for Real-World Scale Arbitrary Super-Resolution
 
 ## RealArbiSR Dataset
-Dataset is available at [08780_RealArbiSRdataset](https://drive.google.com/file/d/1-Z-cwJlmwch8F13GvofGVKLhlFpkBBZv/view?usp=drive_link). 
+Dataset is available at [08780_RealArbiSRdataset - Google Drive](https://drive.google.com/file/d/1-Z-cwJlmwch8F13GvofGVKLhlFpkBBZv/view?usp=drive_link). 
 
 ### Train Set
 `Train` folder contains the train set, including the scale factors of: 
