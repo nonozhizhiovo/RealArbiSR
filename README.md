@@ -1,4 +1,4 @@
-# Learning Dual-level Implicit Representation for Real-world Scale Arbitrary Super-Resolution
+# Learning Dual-Level Implicit Representation for Real-World Scale Arbitrary Super-Resolution
 
 ## RealArbiSR Dataset
 Dataset is available at [8780_RealArbiSRdataset](https://drive.google.com/file/d/1-Z-cwJlmwch8F13GvofGVKLhlFpkBBZv/view?usp=drive_link). 
