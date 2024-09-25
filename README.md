@@ -22,4 +22,20 @@ To test at all scale factors:
 `bash ./scripts/test-realsrarbi-deform.sh [MODEL_PATH] [GPU]`
 
 ## Citation
+If you find this code useful in your work then please cite:
 
+```
+@article{li2024learning,
+  title={Learning Dual-Level Deformable Implicit Representation for Real-World Scale Arbitrary Super-Resolution},
+  author={Li, Zhiheng and Li, Muheng and Fan, Jixuan and Chen, Lei and Tang, Yansong and Zhou, Jie and Lu, Jiwen},
+  journal={arXiv preprint arXiv:2403.10925},
+  year={2024}
+}
+```
+
+## Contact
+Please contact Zhiheng Li @ lizhihan21@mails.tsinghua.edu.cn if any issue.
+
+## Acknowledgements
+
+This code is built on [LIIF](https://github.com/yinboc/liif) and . We thank the authors for sharing their codes and extracted features.
