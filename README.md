@@ -8,7 +8,7 @@ Arrange dataset into the path like `load/Train/...` and `load/Test/...`
 ## 2. DDIR Code
 
 ### Train
-`python train_realliif_deform.py --gpu [GPU] --config [CONFIG_NAME]`
+`python train_realliif_deform.py --gpu [GPU] --config [CONFIG_NAME] --save_name [SAVE_NAME]`
 
 ### Test on Pretrained Models
 The pretrained models can be downloaded from the google drive links below:
