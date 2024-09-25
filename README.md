@@ -38,4 +38,4 @@ Please contact Zhiheng Li @ lizhihan21@mails.tsinghua.edu.cn if any issue.
 
 ## Acknowledgements
 
-This code is built on [LIIF](https://github.com/yinboc/liif) and . We thank the authors for sharing their codes and extracted features.
+This code is built on [LIIF](https://github.com/yinboc/liif). We thank the authors for sharing their codes. 
