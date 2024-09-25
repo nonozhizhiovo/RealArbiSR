@@ -1,44 +1,25 @@
 # Learning Dual-Level Implicit Representation for Real-World Scale Arbitrary Super-Resolution
 
-## RealArbiSR Dataset
-Dataset is available at [RealArbiSRdataset - Google Drive](https://drive.google.com/file/d/1RNb5Q5zI2vNPbw1u9hDVkZ4Jx1NIBVBZ/view?usp=drive_link). 
+## 1. RealArbiSR Dataset Preparation
+Dataset is available at [RealArbiSRdataset - Google Drive](). 
 
-### Train Set
-`Train` folder contains the train set, including the scale factors of: 
+Arrange dataset into the path like `load/Train/...` and `load/Test/...`
 
-x1.5 (`HR1dot5` and `LR1dot5` folders, 200 HR-LR image pairs)
+## 2. DDIR Code
 
-x2.0 (`HR2` and `LR2` folders, 200 HR-LR image pairs)
+### Train
+`python train_realliif_deform.py --gpu [GPU] --config [CONFIG_NAME]`
 
-x2.5 (`HR2dot5` and `LR2dot5` folders, 200 HR-LR image pairs)
+### Test on Pretrained Models
+The pretrained models can be downloaded from the google drive links below:
 
-x3.0 (`HR3` and `LR3` folders, 200 HR-LR image pairs)
+[EDSR-DDIR](https://drive.google.com/file/d/1idnTUqSkQzA3f1BPBuHPeOUCe-XQyd7o/view?usp=drive_link)
 
-x3.5 (`HR3dot5` and `LR3dot5` folders, 200 HR-LR image pairs)
+[RDN-DDIR](https://drive.google.com/file/d/1AJGnAyAq424RPZnUSQJJhgz3KiKSBTfn/view?usp=drive_link)
 
-x4.0 (`HR4` and `LR4` folders, 200 HR-LR image pairs)
+To test at all scale factors:
 
-### Test Set
-`Test` folder contains the test set, including the scale factors of: 
+`bash ./scripts/test-realsrarbi-deform.sh [MODEL_PATH] [GPU]`
 
-x1.5 (`HR1dot5` and `LR1dot5` folders, 50 HR-LR image pairs)
+## Citation
 
-x2.0 (`HR2` and `LR2` folders, 50 HR-LR image pairs)
-
-x2.5 (`HR2dot5` and `LR2dot5` folders, 50 HR-LR image pairs)
-
-x3.0 (`HR3` and `LR3` folders, 50 HR-LR image pairs)
-
-x3.5 (`HR3dot5` and `LR3dot5` folders, 50 HR-LR image pairs)
-
-x4.0 (`HR4` and `LR4` folders, 50 HR-LR image pairs)
-
-x1.7 (`HR1dot7` and `LR1dot7` folders, 83 HR-LR image pairs)
-
-x2.3 (`HR2dot3` and `LR2dot3` folders, 83 HR-LR image pairs)
-
-x2.7 (`HR2dot7` and `LR2dot7` folders, 83 HR-LR image pairs)
-
-x3.3 (`HR3dot3` and `LR3dot3` folders, 83 HR-LR image pairs)
-
-x3.7 (`HR3dot7` and `LR3dot7` folders, 83 HR-LR image pairs)
