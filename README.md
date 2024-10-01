@@ -35,7 +35,7 @@ The pretrained models and the PSNR results of RealArbiSR dataset Version 2 are l
  |RDN-LIIF   |    |    33.49    |    30.71    |    29.51    |    28.16    |    27.43    |  
  |RDN-LTE  |    |    33.54    |    30.83    |    29.61    |    28.23    |    27.51    |  
  |RDN-CiaoSR  |    |    33.16    |    30.81    |    29.74    |    28.44    |    27.69    |
- |RDN-DDIR|    |    33.77    |    31.06    |    29.85    |    28.46    |    29.72    | 
+ |RDN-DDIR|    |    33.77    |    31.06    |    29.85    |    28.46    |    27.72    | 
 
 ### Version 1 (used in the original paper)
 Dataset is available at [RealArbiSRdataset - Google Drive](https://drive.google.com/file/d/1RNb5Q5zI2vNPbw1u9hDVkZ4Jx1NIBVBZ/view?usp=drive_link). 
