@@ -3,7 +3,7 @@
 ## 1. RealArbiSR Dataset Preparation
 
 ### Version 2
-We further refine the dataset quality and increase the size of x1.7/x2.3/x2.7/x3.3/x3.7 testset to 100 scenes. 
+We further refine the dataset quality and increase the size of x1.7/x2.3/x2.7/x3.3/x3.7 testset from 83 scenes to 100 scenes. 
 
 Dataset Version 2 is available at [RealArbiSRdatasetv2 - Google Drive](https://drive.google.com/file/d/1bll8UDYU9c318XsgPcdq5xwsSzdzyVJ9/view?usp=drive_link) 
 
