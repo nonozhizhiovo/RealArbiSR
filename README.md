@@ -47,7 +47,7 @@ Arrange dataset into the path like `load/Train/...` and `load/Test/...`
 ### Train
 `python train_realliif_deform.py --gpu [GPU] --config [CONFIG_NAME] --save_name [SAVE_NAME]`
 
-### Test on Pretrained Models
+### Test on Pretrained Models (used in the original paper)
 The pretrained models can be downloaded from the google drive links below:
 
 [EDSR-DDIR](https://drive.google.com/file/d/1idnTUqSkQzA3f1BPBuHPeOUCe-XQyd7o/view?usp=drive_link)
