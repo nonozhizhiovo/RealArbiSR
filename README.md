@@ -1,4 +1,4 @@
-# Learning Dual-Level Implicit Representation for Real-World Scale Arbitrary Super-Resolution
+# Learning Dual-Level Implicit Representation for Real-World Scale Arbitrary Super-Resolution [ECCV24]
 
 ## 1. RealArbiSR Dataset Preparation
 
