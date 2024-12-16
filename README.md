@@ -62,11 +62,13 @@ To test at all scale factors:
 If you find this code useful in your work then please cite:
 
 ```
-@article{li2024learning,
+@inproceedings{li2025learning,
   title={Learning Dual-Level Deformable Implicit Representation for Real-World Scale Arbitrary Super-Resolution},
-  author={Li, Zhiheng and Li, Muheng and Fan, Jixuan and Chen, Lei and Tang, Yansong and Zhou, Jie and Lu, Jiwen},
-  journal={arXiv preprint arXiv:2403.10925},
-  year={2024}
+  author={Li, Zhiheng and Li, Muheng and Fan, Jixuan and Chen, Lei and Tang, Yansong and Lu, Jiwen and Zhou, Jie},
+  booktitle={European Conference on Computer Vision},
+  pages={352--368},
+  year={2025},
+  organization={Springer}
 }
 ```
 
